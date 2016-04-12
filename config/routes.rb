@@ -6,6 +6,9 @@ Splurty::Application.routes.draw do
   # root 'welcome#index'
   root 'quotes#index'
 
+  resources :quotes
+  # The priority is based upon order of creation: first created -> highest priority.
+
   # Example of regular route:
   #   get 'products/:id' => 'catalog#view'
 
